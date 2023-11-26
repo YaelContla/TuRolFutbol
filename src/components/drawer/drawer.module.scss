@@ -1,0 +1,67 @@
+.containerDrawer {
+    width: 320px;
+    padding: 15px;
+}
+
+.titulo {
+    color: #037BB4;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1px solid #000; /* 1px de ancho, color negro */
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+  }
+
+  .menuItem {
+    border: 1px solid #ccc;
+    margin-bottom: 2px;
+  }
+
+  .menuItemTitle {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+
+  .menuItemContent {
+    display: none;
+    padding: 10px;
+  }
+
+  .menuItemActive .menuItemContent {
+    display: block;
+  }
+
+  .customAccordion {
+    border: none;
+  }
+  
+  /* Personalizar el estilo del header del Accordion */
+  .accordionHeader {
+    background-color: #f0f0f0; /* Personalizar el fondo del header */
+    border: none; /* Anular cualquier borde adicional */
+  }
+  
+  /* Personalizar el estilo del body del Accordion */
+  .accordionBody {
+    padding: 10px; /* Agregar algún relleno si es necesario */
+  }
+
+  .listaFuerzas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .listaFuerzas li{
+    padding: 8px; /* Agregar algún relleno si es necesario */
+    border-bottom: 1px solid #ccc; /* Línea divisoria entre elementos */
+  }
